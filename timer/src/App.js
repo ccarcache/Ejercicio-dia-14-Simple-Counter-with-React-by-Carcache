@@ -25,7 +25,7 @@ class App extends Component {
      <div className="sec3">{Math.floor(this.state.counter/100)%10}</div>
      <div className="sec2">{Math.floor(this.state.counter/10)%10}</div>
      <div className="sec1">{this.state.counter%10}</div>
-     <button className="stopButom" onClick={()=>{ alert('Stoped the counter'); }}>STOP THE COUNTER</button>
+     <button className="stopButom" onClick={()=>{ alert('Stoped the counter'); }}>DETENER EL CONTADOR</button>
     </div>
     );
   }
